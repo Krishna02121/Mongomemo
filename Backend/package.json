@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "install-server": "cd Backend && npm install",
+    "start-server": "cd backend && node index.js"
   },
   "author": "",
   "license": "ISC",
